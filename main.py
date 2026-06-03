@@ -25,18 +25,16 @@ while True:
         if item["id"] == code:
             shopping_list.append({"name": item["name"], "price": item["price"]})
             status = True
-            for item in shopping_list:
-                print(item)
+            for cart_item in shopping_list:
+                print(cart_item)
             break
             
     if not status:
         print("Can't find the item!")
         continue
 
-for item in shopping_list:
-    total += item["price"]
-
 for final_item in shopping_list:
     print(final_item)
+    total += final_item["price"]
 
 print(f"total: {total}")
