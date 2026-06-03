@@ -52,6 +52,7 @@ Implemented basic checkout functionality:
 * Barcode scanning
 * Shopping cart management
 * Total price calculation
+* Before using the program, please update the products in products.csv.
 
 ## Planned Features
 
